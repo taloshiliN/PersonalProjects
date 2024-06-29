@@ -25,12 +25,12 @@ function Header() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Features
+                Products
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Pricing
+                About
               </a>
             </li>
             <li className="nav-item dropdown">
