@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "795651650734",
+    "project_id": "smartspendv6",
+    "storage_bucket": "smartspendv6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795651650734:android:6f853dc1902a6418f3e93f",
+        "android_client_info": {
+          "package_name": "com.example.smartspendv6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa5Ey41sjgCo7MZq80QtSaV4MiKTDTQoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

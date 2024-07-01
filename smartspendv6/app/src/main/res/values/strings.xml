@@ -1,0 +1,16 @@
+<resources>
+    //Sign Up And Login
+    <string name="app_name">smartspendv6</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="ReEnterPassword">Re-Enter Password</string>
+
+    //Card
+    <string name="myCards">My Cards</string>
+    <string name="cardType">Card Type</string>
+    <string name="cardNumber">Card Number</string>
+    <string name="cardMonth">Card Month</string>
+    <string name="cardYear">Card Year</string>
+    <string name="cardCVV">Card CVV</string>
+</resources>
