@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--http-equiv refers to -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenticate</title>
+    <!--href refers to a css theme-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="Process-Register.php" method="post">
+                <h1>Register</h1>
+                <input type="text" placeholder="Username"/>
+                <input type="text" placeholder="Name" name="Name"/>
+                <input type="text" placeholder="Surname" name="Surname"/>
+                <input type="text" placeholder="Email" name="Email"/>
+                <input type="password" placeholder="Password" name="Password" />
+                <input type="password" placeholder="Re-EnterPassword" name="Re-EnterPassword"/>
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container log-in-container">
+            <form action="Process-Login.php">
+                <h1>Log in</h1>
+                <input type="test" placeholder="Username" name="Name"/>
+                <input type="password" placeholder="Password" name="Password"/>
+                <a href="Process-ForgotPass.php">Forgot your password?</a>
+                <button>Log In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Already have an account? Log In</p>
+                    <button class="ghost" id="logIn">Log In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, There!</h1>
+                    <p>Don't have an account? Sign Up Free</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

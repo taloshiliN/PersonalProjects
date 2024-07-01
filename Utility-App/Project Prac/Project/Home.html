@@ -1,0 +1,90 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+            <style>
+                body {
+                background-image: url('1.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed; /* This keeps the background fixed while scrolling */
+                }
+                .center-left {
+                text-align: left; /* Align text to the left */
+                position: absolute;
+                top: 50%; /* Move it down by 50% of the parent's height */
+                transform: translateY(-50%); /* Center it vertically */
+                left: 10%; /* Position it 10% from the left edge of the page */
+                }
+                h1 {
+                    font-size: 70px;
+                    color: white;
+                    font-family: monospace;
+                    transition: font-size 0.3s linear;
+                }
+                h1:hover {
+                    font-size: 90px; /* You can adjust the size as needed */
+                }
+                .list {
+          list-style: none;
+          display: flex;
+          align-items: center;
+          gap: 40px;
+        }
+        .link {
+          position: relative;
+          display: inline-block;
+          left: 1000;
+          text-decoration: none;
+          color: #fff;
+          font-weight: 700;
+          font-family: monospace;
+        }
+
+        .link::before,
+        .link::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #9e0d94;
+            transform: scaleX(0);
+            transition: transform 0.25s;
+        }
+
+        .link::before {
+            top: -3px;
+            transform-origin: left;
+        }
+
+        .link::after {
+            bottom: -3px;
+            transform-origin: right;
+        }
+
+        .link:hover::before,
+        .link:hover::after,
+        .active::before,
+        .active::after {
+            transform: scaleX(1);
+        }      
+            </style>
+        </head>
+        <body>
+            <h1 class="center-left">Utility Manager</h1>
+            <ul class="list">
+                <li><a href="Home.html" class="link">Home</a></li>
+                <li><a href="Login.html" class="link  ">Login</a></li>
+                <li><a href="Services.html" class="link">Services</a></li>
+                <li><a href="About.html" class="link ">About</a></li>
+                <li><a href="FAQs.html" class="link">FAQs</a></li>
+                <li><a href="ContactUs.html" class="link">Contact Us</a></li>
+              </ul>
+        </body>
+
+    </html>
+</DOCTYPE>
