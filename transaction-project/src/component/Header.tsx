@@ -73,6 +73,8 @@ function Header() {
           <button className="btn btn-outline-success" type="submit">
             Search
           </button>
+          <button>Sign Up</button>
+          <button>Log in</button>
         </form>
       </div>
     </nav>
