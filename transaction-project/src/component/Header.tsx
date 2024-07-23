@@ -1,6 +1,4 @@
-import Events from "../pages/Events";
-import Home from "../pages/Home";
-import About from "../pages/About";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -23,23 +21,19 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a
-                className="nav-link active"
-                aria-current="page"
-                href="Home.tsx"
-              >
+              <Link className="nav-link" to="/Home">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="Events.tsx">
+              <Link className="nav-link" to="/Events">
                 Events
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/About">
                 About
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -53,8 +47,16 @@ function Header() {
           <button className="btn btn-outline-success" type="submit">
             Search
           </button>
-          <button>Sign Up</button>
-          <button>Log in</button>
+          <button>
+            <Link to="/Signup" className="btn btn-primary" type="button">
+              Sign Up
+            </Link>
+          </button>
+          <button>
+            <Link to="/Login" className="btn btn-secondary" type="button">
+              Log in
+            </Link>
+          </button>
         </form>
       </div>
     </nav>
