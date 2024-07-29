@@ -1,3 +1,51 @@
-nav{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #41a848;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #3a1b57;
+  }
+
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.search-bar {
+    padding: 6px;
+    border: none;
+}
+
+.nav-link-search-bar{
+    padding: 6px;
+    float: right;
+}
+
+.btn-signup .btn, .btn-login .btn{
+  display: inline;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+}
+
+button{
+  padding: 5px;
 }
