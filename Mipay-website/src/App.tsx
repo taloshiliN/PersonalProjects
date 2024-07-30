@@ -2,9 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Events from "./pages/Events.tsx";
 import About from "./pages/About.tsx";
-import Signup from "./pages/Signup.tsx";
-import Login from "./pages/Login.tsx";
-import "./App.css";
+import Signup from "./SignupLogin/Signup.tsx";
+import Login from "./SignupLogin/Login.tsx";
 
 function App() {
   return (

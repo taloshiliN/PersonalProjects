@@ -48,6 +48,9 @@ function Header() {
                   Log in
                 </Link>
               </button>
+              <Link to="/Profile" className="">
+                Profile
+              </Link>
             </form>
           </ul>
         </div>
