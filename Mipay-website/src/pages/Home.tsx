@@ -4,11 +4,10 @@ function Home() {
   return (
     <>
       <Header />
-      <p>Welcome...</p>
+      <h1>Welcome User</h1>
       <div>
         <p>Current Bets:</p>
       </div>
-      <h1>Home page</h1>
     </>
   );
 }

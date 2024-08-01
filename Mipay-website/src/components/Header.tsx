@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
+import ProfilePicture from "./ProfilePicture";
 
 function Header() {
   return (
@@ -48,8 +49,8 @@ function Header() {
                   Log in
                 </Link>
               </button>
-              <Link to="/Profile" className="">
-                Profile
+              <Link to="/Profile" className="profile-link">
+                <ProfilePicture />
               </Link>
             </form>
           </ul>
